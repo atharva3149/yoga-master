@@ -24,6 +24,7 @@ const theme = createTheme({
 const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  // eslint-disable-next-line no-unused-vars
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isHome, setIsHome] = useState(false);
   const [isLogin, setIsLogin] = useState(false);
