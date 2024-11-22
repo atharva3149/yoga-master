@@ -21,8 +21,14 @@ const HeroContainer = () => {
         translate:["-120%", 0, -500]
        }
      }}
-     modules={[]}
-    >
+     modules={[EffectCreative]}
+     className='mySwiper5'
+     Loop={true}
+     autoplay={{
+      delay:250,
+      disableOnInteraction:false ,
+     }}
+>
         <SwiperSlide>
            <Hero>
 

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import bgImg from '../../../assets/home/banner.webp'
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className='min-h-screen bg-cover' style={{backgroundImage:`url($bgImg)`}}></div>
   )
 }
 
